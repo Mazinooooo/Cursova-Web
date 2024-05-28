@@ -197,6 +197,7 @@ input[type="text"]::placeholder
     margin-top: 10vh;
     position: relative;
     top: 17vh;
+    border-top: 1px solid #fff;
 }
 .section-nav-contact
 {
