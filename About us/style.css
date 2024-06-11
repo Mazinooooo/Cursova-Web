@@ -21,11 +21,7 @@ body{
     position: relative;
     z-index: 1;
 }
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 li{
     list-style-type: none;
     text-decoration: none;
@@ -86,118 +82,80 @@ a:hover
 
 }
 /* -------------------------------------------------- */
-.aside-all-block
-{
-    margin-top: 10vh;
-}
-.aside-header
-{
-    display: flex;
-    justify-content: center;
-    margin-left: 10vh;
-}
-.image
-{
-    width: 75%;
-    border-radius: 5%;
-    box-shadow: 0px 0px 10px burlywood;
-}
-.image-cock
-{
-    width: 105%;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px burlywood;
-}
-.image-hachapuri
-{
-    width: 80%;
-    margin-left: 78px;
-    border-radius: 12px;
-    box-shadow: 0px 0px 10px burlywood;
-}
-.aside-p
-{
-    font-family: Cormorant Upright;
-    font-size: 1.35rem;
-    margin-right: 3px;
-    line-height: 42px;
-    letter-spacing: 0.04em;
-    color: burlywood;
 
-}
-.aside-p-3
+.about-photo
 {
-    font-family: Cormorant Upright;
-    font-size: 1.35rem;
-    margin: 21px 0px 21px 77px;
-    line-height: 42px;
-    letter-spacing: 0.04em;
-    color: burlywood;
+    position: relative; 
+    bottom:13vh; 
+    width: 43%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
 }
-.aside-advice-1
+.about-photo::after
 {
-    font-family: Open Sans;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.7;
-    margin: 0px 20px 0px 0px;
-    color: var(--theme-color-nav);
+    content: "";
+    background: black;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
 }
-.aside-advice-2
-{
-    font-family: Open Sans;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.7;
-    margin: 0px 20px 0px 0px;
-    color: var(--theme-color-nav);
-}
-.aside-advice-3
-{
-    font-family: Open Sans;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.7;
-    margin: 0px 20px 0px 78px;
-    color: var(--theme-color-nav);
-}
-/* -------------------------------------------------- */
-.section-header
+.aside_main
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 10vh;
-    border-top: 1px solid #fff;
+    height: 95vh;
 }
-.section-headline
+.aside_title
 {
-    font-size: 25px;
-    line-height: 35px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
     color: #fff;
+    margin-top: 13vh;
 }
-.section-btn
+.box-aside
 {
-    padding: 13px 30px 13px 30px;
-    background: none;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    transition: background-color 0.8s, color 0.8s;
-    cursor: pointer;
+    position: relative;
+    left: 10vh;
+    bottom: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.section-btn:hover
+.content-1,
+.content-2,
+.content-3,
+.content-4
 {
-    background: #fff;
-    color: #0C0C0C;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 6vh;
 }
-.section-img
+.content-2
 {
-    width: 17%;
-    margin: 20px 0px 20px 0px;
+    position: relative;
+    left: 15vh;
+}
+.content-3
+{
+    position: relative;
+    left: 30vh;
+    width: 83%;
+}
+.content-4
+{
+    position: relative;
+    margin-top: 20vh;
+}
+
+.aside_btn
+{
+    font-size: 1.3rem;
+    padding-right: 15vh;
 }
 /* -------------------------------------------------- */
 .section-nav
